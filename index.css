@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
 .topnav {
     background-color: #193441;
     overflow: hidden;
