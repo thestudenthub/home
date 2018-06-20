@@ -18,7 +18,6 @@ h2 {
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: #f2f2f2;
@@ -28,14 +27,7 @@ h2 {
     font-size: 17px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #91AA9D;
     color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
 }
