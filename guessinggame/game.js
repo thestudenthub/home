@@ -11,6 +11,6 @@ function game() {
       var text = text + "\n Your last guess was: " + parseInt(userGuess);
       var userGuess = prompt("Guess Higher!");
     }
-    var text = text + "\n You guessed the number! Reload the page to try again!";
+    var text = "\n You guessed the number! Reload the page to try again!";
   }
 }
