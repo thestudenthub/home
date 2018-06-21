@@ -50,6 +50,11 @@ h2 {
   text-align: left;
 }
 
+.dropdown:hover {
+    background-color: #91AA9D;
+    color: black;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
