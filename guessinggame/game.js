@@ -3,13 +3,13 @@ function game() {
   var userGuess = prompt("Guess a number between 1 and 1000!");
   while (userGuess !== randomNumber) {
     if (parseInt(userGuess) > randomNumber) {
-      document.write("<p> Your last guess was: <p>" + (parseInt(userGuess)));
+      document.write("<p> Your last guess was: </p>" + (parseInt(userGuess)));
       var userGuess = prompt("Guess Lower!");
     } else if (parseInt(userGuess) < randomNumber) {
-      document.write("<p> Your last guess was: <p>" + (parseInt(userGuess)));
+      document.write("<p> Your last guess was: </p>" + (parseInt(userGuess)));
       var userGuess = prompt("Guess Higher!");
     }
-    document.write("<p> You guessed the number! Reload the page to try again!<p>");
+    document.write("<p> You guessed the number! Reload the page to try again!</p>");
   }
 }
 
