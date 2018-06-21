@@ -1,7 +1,9 @@
+var text = "Does this work??";
+document.getElementById("paragraph").innerHTML = text;
 function game() {
   let randomNumber = Math.floor(Math.random()*1000);
-  var text = "Does this work??";
-  document.getElementById("paragraph").innerHTML = var text;
+  var text = "";
+  document.getElementById("paragraph").innerHTML = text;
   var userGuess = prompt("Guess a number between 1 and 1000!");
   while (userGuess !== randomNumber) {
     if (parseInt(userGuess) > randomNumber) {
