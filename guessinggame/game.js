@@ -6,9 +6,8 @@ function game() {
       var userGuess = prompt("Guess Lower!");
     } else if (parseInt(userGuess) < randomNumber) {
       var userGuess = prompt("Guess Higher!");
-    }if (userGuess === randomNumber){
-      alert("You Won! Refresh to try again!")
+     } else {
+        return alert("You Won! Refresh to try again!")
     }
+    } 
   }
-  }
-
