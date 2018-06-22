@@ -1,6 +1,8 @@
 function game() {
   let randomNumber = Math.floor(Math.random()*1000);
   var userGuess = prompt("Guess a number between 1 and 1000!");
+    if (userGuess == randomNumber){
+    alert("You won!")
   while (userGuess !== randomNumber) {
     if (parseInt(userGuess) > randomNumber) {
       var userGuess = prompt("Guess Lower!");
@@ -8,7 +10,5 @@ function game() {
       var userGuess = prompt("Guess Higher!");
     }
   }
-  if (userGuess == randomNumber){
-    alert("You won!")
   }
 }
