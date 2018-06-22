@@ -8,5 +8,7 @@ function game() {
       var userGuess = prompt("Guess Higher!");
     }
   }
-  alert ("You won! Reload the Page to try again!");
+  if (userGuess == randomNumber){
+    alert("You won!")
+  }
 }
