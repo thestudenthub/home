@@ -7,6 +7,6 @@ function game() {
     } else if (parseInt(userGuess) < randomNumber) {
       var userGuess = prompt("Guess Higher!");
     }
-    alert("\n You guessed the number! Reload the page to try again!");
   }
+  alert ("You won! Reload the Page to try again!");
 }
