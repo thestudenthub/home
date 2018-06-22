@@ -1,5 +1,5 @@
 //To call this function please use SPRgame()//
-
+function SPRgame(){
 var userChoice = prompt ("Do you choose Scissors, Paper or Rock?");
 var computerChoice = Math.random();
 if (!userChoice) {
@@ -56,3 +56,4 @@ var compare = function(choice1, choice2) {
  }
  }
 };
+}
