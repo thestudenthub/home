@@ -3,11 +3,14 @@ function game() {
   var userGuess = prompt("Guess a number between 1 and 1000!");
   while (userGuess !== randomNumber) {
     if (parseInt(userGuess) > randomNumber) {
-      var userGuess = prompt("Guess Lower!");
+      alert ("Guess lower");
+      var userGuess = prompt("Guess a number between 1 and 1000!");
     } else if (parseInt(userGuess) < randomNumber) {
-      var userGuess = prompt("Guess Higher!");
+      alert ("Guess Higher");
+      var userGuess = prompt("Guess a number between 1 and 1000!");
      } else {
         return alert("You Won! Refresh to try again!")
     }
     } 
   }
+
