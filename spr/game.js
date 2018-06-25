@@ -22,7 +22,7 @@ function sprGame() {
     (computerChoice = "Rock");
     computerOutput.innerHTML = `Computer Chose: ${computerChoice}` + "<br />";
   }
-  var compare = function(choice1, choice2) {
+  function compare(choice1, choice2) {
     if (choice1 === choice2) {
       computerOutput.innerHTML = "Computer Chose: " + computerChoice + "<br />" + "It's A Draw!";
       return
