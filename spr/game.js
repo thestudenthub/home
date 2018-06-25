@@ -1,5 +1,5 @@
-//To call this function please use SPRgame()//
-function SPRgame(){
+//To call this function please use sprGame()//
+function sprGame(){
 var userChoice = prompt ("Do you choose Scissors, Paper or Rock?");
 var computerChoice = Math.random();
 if (!userChoice) {
