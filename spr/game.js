@@ -4,7 +4,7 @@ function sprGame() {
   var userChoice = prompt ("Do you choose Scissors, Paper or Rock?");
   var computerChoice = Math.random();
   if (!userChoice) {
-    computerOutput.innerHTML = "Hey! You cheated! Reload the page!";
+    computerOutput.innerHTML = "Hey! You cheated! Reload the page!" + <br />;
   } else if (userChoice !== "Rock") {
     if (userChoice !== "Paper") {
       if (userChoice !== "Scissors") {
