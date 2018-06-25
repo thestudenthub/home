@@ -13,14 +13,11 @@ function sprGame() {
     }
   }
   if (computerChoice < 0.34) {
-    (computerChoice = "Scissors");
-    computerOutput.innerHTML = `Computer Chose: ${computerChoice}` + "<br />";
+    computerChoice = "Scissors";
   } else if (computerChoice >= 0.67) {
-    (computerChoice = "Paper");
-    computerOutput.innerHTML = `Computer Chose: ${computerChoice}` + "<br />";
+    computerChoice = "Paper";
   } else {
-    (computerChoice = "Rock");
-    computerOutput.innerHTML = `Computer Chose: ${computerChoice}` + "<br />";
+    computerChoice = "Rock";
   }
   function compare(choice1, choice2) {
     if (choice1 === choice2) {
@@ -55,5 +52,5 @@ function sprGame() {
       }
     }
   };
-  compare();
+  compare(choice1, choice2);
 }
