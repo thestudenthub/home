@@ -27,33 +27,33 @@ function sprGame() {
   var compare = function(choice1, choice2) {
     if (choice1 === choice2) {
       computerOutput.innerHTML = "Computer Chose: " + computerChoice + "<br />" + "It's A Draw!";
-      return alert ("Its a Draw!");
+      return
     }
     if (choice1 === "Rock") {
       if (choice2 === "Scissors") {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "<br />" + "You Win!";
-        return alert ("You Win!");
+        return
       } else {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "<br />" + "You Lose!";
-        return alert ("You Lose!");
+        return
       }
     }
     if (choice1 === "Scissors") {
       if (choice2 === "Paper") {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "<br />" + "You Win!";
-        return alert ("You Win!");
+        return
       } else {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "<br />" + "You Lose!";
-        return alert ("You Lose!");
+        return
       }
     }
     if (choice1 === "Paper") {
       if (choice2 === "Rock") {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "<br />" + "You Win!";
-        return alert ("You Win!");
+        return
       } else {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "<br />" + "You Lose!";
-        return alert ("You Lose!");
+        return
       }
     }
   };
