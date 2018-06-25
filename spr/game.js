@@ -1,33 +1,29 @@
 //To call this function please use sprGame()//
 function sprGame(){
+  var computerOutput = document.getElementById("computerChoice")
   var userChoice = prompt ("Do you choose Scissors, Paper or Rock?");
   var computerChoice = Math.random();
   if (!userChoice) {
-    document.write("Hey! You cheated! Reload the page!");
+    computerOutput.innerHTML = "Hey! You cheated! Reload the page!";
     document.write("\n");
   } else if (userChoice !== "Rock") {
     if (userChoice !== "Paper") {
       if (userChoice !== "Scissors") {
-        document.write("Please input either Scissors, Paper or Rock! Use Capitals!");
-        document.write("\n");
+        computerOutput.innerHTML = "Please input either Scissors, Paper or Rock! Use Capitals!" + "\n";
       }
     }
   } else {
-    document.write(`Player 1: ${userChoice}`);
-    document.write("\n");
+    computerOutput.innerHTML = `Player 1: ${userChoice}` + "\n";
   }
   if (computerChoice < 0.34) {
     (computerChoice = "Scissors");
-    document.write(`Computer Chose: ${computerChoice}`);
-    document.write("\n");
+    computerOutput.innerHTML = `Computer Chose: ${computerChoice}` + "\n";
   } else if (computerChoice >= 0.67) {
     (computerChoice = "Paper");
-    document.write(`Computer Chose: ${computerChoice}`);
-    document.write("\n");
+    computerOutput.innerHTML = `Computer Chose: ${computerChoice}` + "\n";
   } else {
     (computerChoice = "Rock");
-    document.write(`Computer Chose: ${computerChoice}`);
-    document.write("\n");
+    computerOutput.innerHTML = `Computer Chose: ${computerChoice}` + "\n";
   }
   var compare = function(choice1, choice2) {
     if (choice1 === choice2) {
