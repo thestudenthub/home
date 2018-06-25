@@ -52,5 +52,5 @@ function sprGame() {
       }
     }
   };
-  compare(choice1, choice2);
+  compare(userChoice, computerChoice);
 }
