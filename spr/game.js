@@ -50,4 +50,5 @@ function sprGame(){
       }
     }
   };
+  compare();
 }
