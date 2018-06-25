@@ -32,27 +32,27 @@ if (computerChoice < 0.34) {
 }
 var compare = function(choice1, choice2) {
  if (choice1 === choice2) {
-  return "Its a Draw!";
+  return alert ("Its a Draw!");
  }
  if (choice1 === "Rock") {
    if (choice2 === "Scissors") {
-    return "You Win!";
+    return alert ("You Win!");
  }else{
-    return "You Lose!";
+    return alert ("You Lose!");
   }
  }
   if (choice1 === "Scissors") {
    if (choice2 === "Paper") {
-    return "You Win!";
+    return alert ("You Win!");
  }else{
-    return "You Lose!";
+    return alert ("You Lose!");
  }
   }
  if (choice1 === "Paper") {
    if (choice2 === "Rock") {
-    return "You Win!";
+    return alert ("You Win!");
  } else {
-    return "You Lose!";
+    return alert ("You Lose!");
  }
  }
 };
