@@ -11,8 +11,6 @@ function sprGame() {
         computerOutput.innerHTML = "Please input either Scissors, Paper or Rock! Use Capitals!" + "<br />";
       }
     }
-  } else {
-    computerOutput.innerHTML = `Player 1: ${userChoice}` + "<br />";
   }
   if (computerChoice < 0.34) {
     (computerChoice = "Scissors");
