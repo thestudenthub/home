@@ -5,7 +5,6 @@ function sprGame(){
   var computerChoice = Math.random();
   if (!userChoice) {
     computerOutput.innerHTML = "Hey! You cheated! Reload the page!";
-    document.write("\n");
   } else if (userChoice !== "Rock") {
     if (userChoice !== "Paper") {
       if (userChoice !== "Scissors") {
