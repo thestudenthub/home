@@ -1,5 +1,5 @@
 //To call this function please use sprGame()//
-function sprGame(){
+function sprGame() {
   var computerOutput = document.getElementById("computerChoice")
   var userChoice = prompt ("Do you choose Scissors, Paper or Rock?");
   var computerChoice = Math.random();
@@ -33,7 +33,7 @@ function sprGame(){
       if (choice2 === "Scissors") {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "\n" + "You Win!"
         return alert ("You Win!");
-      }else{
+      } else {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "\n" + "You Lose!"
         return alert ("You Lose!");
       }
@@ -42,7 +42,7 @@ function sprGame(){
       if (choice2 === "Paper") {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "\n" + "You Win!"
         return alert ("You Win!");
-      }else{
+      } else {
         computerOutput.innerHTML = "Computer Chose: " + computerChoice + "\n" + "You Lose!"
         return alert ("You Lose!");
       }
