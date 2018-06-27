@@ -9,7 +9,7 @@ function game() {
       alert ("Guess Higher");
       var userGuess = prompt("Guess a number between 1 and 1000!");
      } else {
-        return alert("You Won! Refresh to try again!")
+        return alert("You Won!")
     }
     } 
   }
