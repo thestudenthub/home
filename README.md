@@ -1,2 +1,2 @@
-# somethingthatsomeonealreadyhas.github.io
+# thestudenthub.github.io
 Website
